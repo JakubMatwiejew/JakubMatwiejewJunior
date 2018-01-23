@@ -1,0 +1,106 @@
+$first: #34AC91;
+$second: #CEE6E8;
+$third: #F6BE12;
+
+*{
+  box-sizing: border-box;
+}
+html{
+  font-family: 'Muli', sans-serif;
+  height:100%;
+    body{
+    margin: 0;
+    padding: 0;
+  }
+}
+#app{
+  display: flex;
+  height: 100vh;
+}
+#header{
+  background-color: $second;
+  height: 100vh;
+  button{
+    margin: 20px auto;
+    background-color: $third;
+    border: 2px solid $first;
+    color: $first;
+  }
+  color: $first;
+}
+#aboutme {
+  color: $first;
+  height: 100vh;
+}
+#portfolio {
+  background-color: $second;
+  color: $first;
+}
+#contact {
+  color: $first;
+  height: 100vh
+
+}
+.wrapper{
+  display: block;
+  @media(min-width: 800px){
+    display: flex;
+  }
+}
+.content{
+  height: 100vh;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  @media(min-width: 800px){
+    width: 60%;
+  }
+  h1, h2, p{
+    text-align: center;
+  }
+}
+input, textarea{
+  display: block;
+  width: 100%;
+  border: 1px solid $second;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 30px;
+  padding: 10px;
+}
+textarea{
+  height: 150px;
+}
+button{
+  display: flex;
+  margin: 10px auto;
+  padding: 10px;
+  color: white;
+  background: $first;
+  border: none;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+.background{
+  @media(max-width: 800px){
+    display: none;
+  }
+  @media(min-width: 800px){
+    width: 40%;
+  }
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
