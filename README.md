@@ -1,5 +1,5 @@
 # Junior Front-End Developer
 
-One page made to show online my portfolio and informations about me.
+Onepage made to show online my portfolio and informations about me.
 
-Made using: React, Sass, RWD.# JakubMatwiejewJunior
+Made using: React, Sass, RWD.
